@@ -796,7 +796,7 @@ function rotateInfo() {
 
 var master = new TimelineMax();
 master.add(rotateInfo(), "rotateInfo");
-master.pause();
+// master.pause();
 
 //master.seek("rotateInfo+=24");
 
